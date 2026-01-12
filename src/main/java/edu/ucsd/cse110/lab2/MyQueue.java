@@ -18,7 +18,7 @@ public class MyQueue {
     }
     
     public boolean isFull() {
-        return size == elements.length-1;
+        return size == elements.length;
     }
     
     public int size() {
