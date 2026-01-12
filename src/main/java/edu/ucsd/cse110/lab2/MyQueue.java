@@ -48,6 +48,6 @@ public class MyQueue {
         if (isEmpty()) {
             throw new IllegalStateException("Queue is empty");
         }
-        return elements[rear];
+        return elements[front];
     }
 }
